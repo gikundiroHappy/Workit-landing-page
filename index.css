@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(243, 241, 241);
+  border-bottom-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.up-part {
+  background-color: rgba(14, 2, 68, 0.902);
+  color: white;
+  padding: 30px 60px;
+  height: 100%;
+  position: relative;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  /* border-bottom-right-radius: 500px/100px; */
+}
+.up-part .part ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.up-part .part ul .apply {
+  text-decoration: underline;
+  text-decoration-color: rgb(96, 248, 96);
+  text-underline-offset: 10px;
+}
+.up-part .part ul li {
+  list-style: none;
+}
+.up-part .part ul li span {
+  font-weight: bold;
+}
+.up-part .part-one {
+  text-align: center;
+  margin-top: 20px;
+}
+.up-part .part-one p {
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.up-part .part-one p span {
+  text-decoration: underline;
+  text-decoration-color: rgb(96, 248, 96);
+  text-underline-offset: 10px;
+}
+.up-part .part-one button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 150px;
+  cursor: pointer;
+  background-color: rgb(115, 244, 115);
+}
+.up-part .phone {
+  position: absolute;
+  margin-left: 380px;
+  margin-top: -330px;
+}
+.middle {
+  padding: 60px;
+  position: relative;
+  text-align: center;
+  background-color: rgb(243, 241, 241);
+  padding-bottom: 100px;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  display: none;
+}
+.middle .cards {
+  display: flex;
+  text-align: center;
+}
+.middle .cards h2 {
+  border: 1px solid grey;
+  margin-left: 190px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 40px;
+  padding: 5px;
+}
+.middle .cards h1 {
+  margin-bottom: 30px;
+}
+.middle .cards p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.lower-part {
+  padding: 60px;
+}
+.lower-part img {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  position: relative;
+}
+.lower-part .cardd {
+  background-color: rgba(14, 2, 68, 0.902);
+  width: 900px;
+  padding: 30px;
+  color: white;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: -190px;
+}
+.lower-part .cardd h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.lower-part .cardd p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.lower-part .cardd button {
+  padding: 10px 20px;
+  background-color: rgb(115, 244, 115);
+  border: none;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.all {
+  background-color: white;
+}
+.footer p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.footer p span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer ul li {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="up-part">
+        <div class="part">
+          <ul>
+            <li><span>Work</span>it</li>
+            <li
+              class="apply"
+              id="apply"
+              onmouseover="lineOn()"
+              onmouseout="lineOut()"
+            >
+              Apply for access
+            </li>
+          </ul>
+        </div>
+        <div class="part-one">
+          <p>
+            Data
+            <span id="line" onmouseover="onLine()" onmouseout="outLine()">
+              tailored</span
+            >
+            to <br />your needs.
+          </p>
+          <button
+            onmouseover="display(this, 'skyblue')"
+            onmouseout="display(this, 'rgb(96, 248, 96)')"
+            onclick="cards()"
+          >
+            Learn More
+          </button>
+        </div>
+        <!-- <div class="phone"><img src="./images/phone.png" alt="" /></div> -->
+      </div>
+      <div class="middle" id="middle">
+        <div class="cards">
+          <div class="card">
+            <h2>1</h2>
+            <h1>Actionable insights</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur quibusdam harum voluptates unde dolore
+            </p>
+          </div>
+          <div class="card">
+            <h2>2</h2>
+            <h1>Data-driven decisions</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur quibusdam harum voluptates unde dolore
+            </p>
+          </div>
+          <div class="card">
+            <h2>3</h2>
+            <h1>Always affordable</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur quibusdam harum voluptates unde dolore
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="all">
+      <div class="lower-part">
+        <img
+          src="./images/profile.png"
+          alt=""
+          onmouseover="inchange.call(this)"
+          onmouseout="outchange.call(this)"
+        />
+        <div class="cardd">
+          <h2>Be the first to test</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            est rem laborum maiores veritatis rerum assumenda Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Expedita, est rem laborum
+            maiores veritatis rerum assumenda
+          </p>
+          <button
+            onmouseover="display(this, 'skyblue')"
+            onmouseout="display(this, 'rgb(96, 248, 96)')"
+          >
+            Apply for access
+          </button>
+        </div>
+      </div>
+      <div class="footer">
+        <p><span>Work</span>it</p>
+        <ul>
+          <li>
+            <span
+              ><i class="bx bxl-facebook-square" style="color: #3f3f3f"></i
+            ></span>
+          </li>
+          <li>
+            <span><i class="bx bxl-twitter" style="color: #414141"></i></span>
+          </li>
+          <li>
+            <span><i class="bx bxl-instagram" style="color: #3f3f3f"></i></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
